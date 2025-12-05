@@ -1,0 +1,7 @@
+{
+  "name": "DitMadKompass",
+  "description": "A Danish-focused food transparency app that analyzes products for health scores, additives, and organic certification (Ø-mærket).",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
