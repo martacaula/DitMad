@@ -59,4 +59,4 @@ DitMadKompass is engineered with a strict mobile-first philosophy, delivering a 
 ## 🤝 Credits
 
 **Client:** DITMADKOMPASS  
-**AI Solution Provider:** ROGEX AI SOLUTIONS
+**Provider:** ROGEX AI SOLUTIONS
