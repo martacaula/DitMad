@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# DitMadKompass
 
-This contains everything you need to run your app locally.
+**DitMadKompass** is a premier food transparency application designed specifically for the Danish market. It empowers users to make healthier nutritional choices by instantly analyzing food products through their camera.
 
-View your app in AI Studio: https://ai.studio/apps/drive/11HcL6ms6792D4G3YrcOxrPEmMiyTxoBe
+**Powered by ROGEX AI SOLUTIONS**, this application leverages advanced image recognition and nutritional data processing to deliver actionable insights based on the Nordic Nutrition Recommendations.
 
-## Run Locally
+## 🚀 Key Features
 
-**Prerequisites:**  Node.js
+### 🔍 AI-Powered Scanning
+Instantly identify products and receive a detailed health breakdown. The scanning technology, provided by **ROGEX AI SOLUTIONS**, identifies brands, ingredients, and hidden additives in real-time.
 
+### 📊 Comprehensive Health Analysis
+*   **Health Score:** A clear 0-100 numeric rating system to judge product quality at a glance.
+*   **Nutrient Breakdown:** Detailed "Positives" vs "Negatives" lists with intensity ratings (1-5 dots).
+*   **Dietary Filters:** Automatic detection for Lactose Intolerance, Celiac Disease, Diabetes, and more.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🍏 Smart Alternatives
+The app suggests healthier product swaps available in Danish stores, helping users improve their diet without sacrificing convenience.
+
+### 📋 My Lists Ecosystem
+*   **History:** Automatic tracking of all scanned items.
+*   **Favorites & Saved:** Bookmark products for later.
+*   **Custom Lists:** Create and manage shared shopping lists for events or household needs.
+
+### 💎 Subscription Tiers
+*   **Free:** Basic scanning capabilities.
+*   **Pro:** Unlimited scans and deeper ingredient analysis.
+*   **Pro+:** Advanced AI insights, personalized dietary modes, and weekly reports.
+
+## 🛠 Tech Stack
+
+*   **Frontend:** React (v19)
+*   **Styling:** Tailwind CSS
+*   **Icons:** Heroicons
+*   **AI Integration:** ROGEX AI SOLUTIONS
+*   **Architecture:** Mobile-First Single Page Application (SPA)
+
+## 📱 Design Philosophy
+
+DitMadKompass is engineered with a strict mobile-first philosophy, delivering a native app experience via the web:
+*   Custom curved navigation bar with floating action button.
+*   Touch-optimized interactions and swipeable lists.
+*   Responsive layout optimized for 9:16 mobile viewports.
+
+## 📦 Installation
+
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Configure your environment variables for **ROGEX AI SOLUTIONS** services.
+4.  Run the development server:
+    ```bash
+    npm start
+    ```
+
+## 🤝 Credits
+
+**Client:** DITMADKOMPASS  
+**AI Solution Provider:** ROGEX AI SOLUTIONS
